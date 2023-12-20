@@ -86,5 +86,5 @@ app.get('/generate', async (req, res) => {
 
 // Iniciar o servidor
 app.listen(PORT, () => {
-    console.log(`Server is running on http://${HOSTNAME}:${PORT}/generate?text=ola-testando`);
+    console.log(`Server is running on http://${HOSTNAME}:${PORT}/generate?text=hello-world`);
 });
